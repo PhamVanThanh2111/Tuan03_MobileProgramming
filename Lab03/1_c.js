@@ -30,7 +30,7 @@ const Screen1_c = ({ navigation }) => {
       <View style={styles.containerButton}>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('Screen1_a')}>
+          onPress={() => navigation.navigate('Screen1_d')}>
           <Text style={styles.buttonText}>VERIFY CODE</Text>
         </TouchableOpacity>
       </View>

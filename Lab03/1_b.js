@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   containerMail: {
-    flex: 1.75,
+    flex: 1.5,
     backgroundColor: '#C4C4C4',
     height: 45,
     width: 305,
