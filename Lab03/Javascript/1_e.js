@@ -20,7 +20,7 @@ const Screen1_e = ({ navigation }) => {
         </View>
         <View style={styles.textField2}>
           <Text>Password</Text>
-          <Image style={styles.eye} source={require('./eye.png')} />
+          <Image style={styles.eye} source={require('../Images/eye.png')} />
         </View>
         <View style={styles.textField1}>
           <Text>Birthday</Text>

@@ -1,14 +1,14 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import FirstScreen from './FirstScreen';
-import Screen1_a from './1_a';
-import Screen1_b from './1_b';
-import Screen1_c from './1_c';
-import Screen1_d from './1_d';
-import Screen1_e from './1_e';
-import Screen2_a from './2_a';
-import ScreenXMEye from './XMEye';
+import FirstScreen from './Javascript/FirstScreen';
+import Screen1_a from './Javascript/1_a';
+import Screen1_b from './Javascript/1_b';
+import Screen1_c from './Javascript/1_c';
+import Screen1_d from './Javascript/1_d';
+import Screen1_e from './Javascript/1_e';
+import Screen2_a from './Javascript/2_a';
+import ScreenXMEye from './Javascript/XMEye';
 
 const Stack = createStackNavigator();
 

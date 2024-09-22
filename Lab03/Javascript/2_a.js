@@ -13,13 +13,13 @@ const Screen2_a = ({ navigation }) => {
       </View>
       <View style={styles.textFieldContainer}>
         <View style={styles.textField}>
-        <Image style={styles.iconTextField} source={require('./user.png')} />
+        <Image style={styles.iconTextField} source={require('../Images/user.png')} />
           <Text style={styles.textInTextField}>Name</Text>
         </View>
         <View style={styles.textField}>
-        <Image style={styles.iconTextField} source={require('./lock.png')} />
+        <Image style={styles.iconTextField} source={require('../Images/lock.png')} />
           <Text style={styles.textInTextField}>Password</Text>
-          <Image style={styles.eye} source={require('./eye.png')} />
+          <Image style={styles.eye} source={require('../Images/eye.png')} />
         </View>
       </View>
       <View style={styles.buttonContainer1}>

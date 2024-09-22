@@ -14,7 +14,7 @@ const Screen1_d = ({ navigation }) => {
         </View>
         <View style={styles.textField2}>
           <Text>Password</Text>
-          <Image style={styles.eye} source={require('./eye.png')} />
+          <Image style={styles.eye} source={require('../Images/eye.png')} />
         </View>
       </View>
       <View style={styles.buttonContainer}>
@@ -31,13 +31,13 @@ const Screen1_d = ({ navigation }) => {
       </View>
       <View style={styles.socialContainer}>
         <View style={styles.iconContainerFacebook}>
-          <Image style={styles.icon} source={require('./facebook.png')} />
+          <Image style={styles.icon} source={require('../Images/facebook.png')} />
         </View>
         <View style={styles.iconContainerZalo}>
-          <Image style={styles.icon} source={require('./zalo.png')} />
+          <Image style={styles.icon} source={require('../Images/zalo.png')} />
         </View>
         <View style={styles.iconContainerGoogle}>
-          <Image style={styles.icon} source={require('./google.png')} />
+          <Image style={styles.icon} source={require('../Images/google.png')} />
         </View>
       </View>
     </View>

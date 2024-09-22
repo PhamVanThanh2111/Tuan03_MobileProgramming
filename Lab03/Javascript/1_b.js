@@ -11,7 +11,7 @@ const Screen1_b = ({ navigation }) => {
       <View style={styles.containerLock}>
         <Image
           style={styles.lock}
-          source={require('./lock.png')}
+          source={require('../Images/lock.png')}
         />
       </View>
       <View style={styles.containerTitle}>
@@ -24,7 +24,7 @@ const Screen1_b = ({ navigation }) => {
         </Text>
       </View>
       <View style={styles.containerMail}>
-        <Image style={styles.mailImage} source={require('./email.png')} />
+        <Image style={styles.mailImage} source={require('../Images/email.png')} />
         <View style={styles.mailContent}>
           <Text>Mail</Text>
         </View>

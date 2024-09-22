@@ -6,15 +6,15 @@ const ScreenXMEye = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={styles.imgContainer}>
-        <Image style={styles.eyeImg} source={require('./eyeXMEye.jpg')}></Image>
+        <Image style={styles.eyeImg} source={require('../Images/eyeXMEye.jpg')}></Image>
       </View>
       <View style={styles.textFieldContainer}>
         <View style={styles.textField}>
-          <Image style={styles.eye} source={require('./personXMEye.png')}></Image>
+          <Image style={styles.eye} source={require('../Images/personXMEye.png')}></Image>
           <Text style={styles.textInTextField}>Please input user name</Text>
         </View>
         <View style={styles.textField}>
-          <Image style={styles.eye} source={require('./lockXMEye.png')}></Image>
+          <Image style={styles.eye} source={require('../Images/lockXMEye.png')}></Image>
           <Text style={styles.textInTextField}>Please input password</Text>
         </View>
       </View>
@@ -34,13 +34,13 @@ const ScreenXMEye = ({ navigation }) => {
       </View>
       <View style={styles.socialContainer}>
         <View style={styles.social}>
-          <Image style={styles.imgSocial} source={require('./addPerson.png')} />
+          <Image style={styles.imgSocial} source={require('../Images/addPerson.png')} />
         </View>
         <View style={styles.social}>
-          <Image style={styles.imgSocial} source={require('./wifi.png')} />
+          <Image style={styles.imgSocial} source={require('../Images/wifi.png')} />
         </View>
         <View style={styles.social}>
-          <Image style={styles.imgSocial} source={require('./facebook.png')} />
+          <Image style={styles.imgSocial} source={require('../Images/facebook.png')} />
         </View>
       </View>
     </View>
